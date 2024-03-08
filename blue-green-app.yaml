@@ -78,7 +78,7 @@ apiVersion: v1
 kind: Service
 metadata:
   namespace: blue-green-ns
-  name: blue-app--service
+  name: blue-app-service
   labels:
     app: blue-app
   annotations:
